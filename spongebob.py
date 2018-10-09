@@ -72,7 +72,7 @@ def bot(op):
         if op.type == 5:
             line.findAndAddContactsByMid(op.param1)
             line.sendMessage(op.param1, "Thanks for add\nCreator Bots")
-            line.sendContact(op.param1, 'u0ac948397fbc732bd3bc5ca273faa698')
+            line.sendContact(op.param1, 'u9f09cfcb17d037e2936b751bd9d40ead')
         if op.type == 13:
             try:
                 group = line.getGroup(op.param1)
