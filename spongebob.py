@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast
 _session = requests.session()
 translateen = []
-line = LINE()
+line = LINE("ExQPbG1r1POJ48Vl0z45.fj0S/qYKVWGRwpehA8QPbq.JnNjXBotZJZCqtNYVkI1kNOSS031Jjb8M80N/Mumeoc=")
 line.log("Auth Token : " + str(line.authToken))
 channelToken = line.getChannelResult()
 settingsOpen = codecs.open("prankBots.json","r","utf-8")
