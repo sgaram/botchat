@@ -104,14 +104,14 @@ def bot(op):
                         return
                     else:
                         prankbot = command(text)
-                        if 'Spongebob' in msg.text:
+                        if '@ᵈᵘᵈᵘˡ ' in msg.text:
                             kontak = line.getContact(msg._from)
-                            response = ("ada apa kau memanggilku ","ya aku disini ","apakah ada yang memesan krebipeti ")
+                            response = ("ada apa kau memanggilku ","ya aku disini ","apakah ada yang memesan dudul sepaket ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "keluar" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("ok gw keluar ya ","ok siap ","yaudah kalo gitu bye bye ","yasudahlah bye ","rese lu ")
+                            response = ("ok gw keluar ya ","ok siap ","yaudah kalo gitu bye bye ","yasudahlah bye ","rese lu ","njirrr malah crot dia")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                             line.leaveGroup(msg.to)
@@ -175,24 +175,114 @@ def bot(op):
                             response = ("lu sue gw mah kagak ","sabar.. "," ","bahhhh ","ndasmu ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "vekok" in text.lower() or "kampret" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("astagfirullah jangan bilang gitu ","kasar banget lu njir "," ","paan lu mprett. ","biasa aja kalee ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
                         if "kamvret" in text.lower() or "kampret" in text.lower():
                             kontak = line.getContact(msg._from)
                             response = ("astagfirullah jangan bilang gitu ","kasar banget lu njir "," ","paan lu mprett. ","biasa aja kalee ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
-                        if "gw" in text.lower() or "aku" in text.lower():
+                        if "aim" in text.lower() or "aku" in text.lower():
                             kontak = line.getContact(msg._from)
                             response = ("iya ","ada apa ","oh bgitu ","aku juga ","hooh ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
-                        if "kuy" in text.lower() or "ayo" in text.lower():
+                        if "nah" in text.lower() or "ayo" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("kuuyyyy ahh ","kmana ","gw gak di ajak njir ","ayolah kalo bgitu ","siaappp.! ")
+                            response = ("nah yekan ","kan sue ","gw gak di ajak njir ","okelah kalo bgitu ","siaappp. grakk! ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
-                        if "kikil" in text.lower() or "kick" in text.lower():
+                        if "dudul" in text.lower() or "kick" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("dasar kikil ","bah kikil ","njirr ada kikil ","situ kikil . ","si kikil mana si kikil ")
+                            response = ("ada saudara gue manggil nie ","bah akur aja sesama dudul ","lebih parah lu kamvret ","situ vekok . ","si dudul sahabat gue ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "kan" in text.lower() or "iya" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("apaan,  aku aja diam","kalau aim bilang gak, mau apa lu njirr ","sono sekolah dulu biar ga dudul kaya aim ","situ mau kemana dul ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "assalamualaikum" in text.lower() or "salam" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("waalaikumsalam ","mungkin dibawah aim yang jawab salam, soalnya aim lagi ditoilet "," ","hai ka, salam juga ","aim bot gak ngerti salam 😂 ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "pagi" in text.lower() or "ngopi" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("baru melek ya ka ","iya ngopi dulu biar seger ","aku pagi2 biasanya nyusu bukan ngopi ","bersihin dulu kasur dipipisin kaka tadi malam😛 ","aku sdh nyusu ka, ngga suka kopi ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "bot" in text.lower() or "mbot" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("owh.. ternyata saudara kembar aim, ","jangan panggil2, karena kita sesama dudul ","gw gak di ajak njir ","kirim tikel dulu ke bang sepri baru boleh panggil aim ","bot mata lu 😂😂! ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "sepri" in text.lower() or "nieta" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("lu jangan panggil2 boss gue, ntar lu ditikung trus di geprek😀","boss aim lagi mojok😄 "," ","aduh, jangan panggil mulu, boss aku lagi anu.. ","sekali lagi manggil boss gue, gue bakal tikung lu.. sumpah😡 ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "crot" in text.lower() or "crott" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("wah.... enak ya ka?? ","cie yang habis nyabun ","lagi donk ka.. aku pengen ","ah ah ah... la.. la.. la.. ","hadeh desah fals aja crot")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "desah" in text.lower() or "ah" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("ahh.. ahh.. ","kmana ","fals gak desahannya njirrr ","coba desahin aku donk 😂 ","dia pasti mau aku desahin.! ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "tagall" in text.lower() or "tag" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("kurang kerjaan, main tag aja lu njirrr ","panggil aku aja ka"," ","sepi ya roomnya ","sidudul kesepian😛😛😛 ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "me" in text.lower() or "mie" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("mie ayam apa mie keriting🤗 ","cie botnya modar😂 ","mie dua telur plus satu sosis ","ayam😂 ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "kenal" in text.lower() or "tau" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("yang maling semvak itukan?? ","iya, orangnya kurus, tinggi langsing, sisa tulang ","orngnya jago desah, tapi fals ","tau donk, kan setiap desah, pasti keluar vibranya😂😂 ","iya kenal, yang matanya juling itu kan","iya,, pernah ketangkap satpam, maling BH", "tau donk, kan orangnya hitam, cuma putih gigi doank ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "ngerti" in text.lower() or "paham" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("gue mah dudul, mana ngerti ","ajarin donk desah "," aim kan dudul mana paham","dibawah aim nie juga dudul ","itu masalah anu aja..😛😜 ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "smule" in text.lower() or "nyanyi" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("aim ga punya smule ","aim dudul mana bisa nyanyi ","follow gih id smule boss ku BSS1_SEPRI_CHE","ada oc apa dul ","ntar gue join ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "otw" in text.lower() or "otewe" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("kemana lu njirr ","aku ikut ya.. ","boong, paling,, nikung dia ","pasti cari tikungan anjayyy ","ttdj ya ka ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "join" in text.lower() or "oc" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("idih, aim bot... mana bisa nyanyi ","ntar aim join ya"," ","apa id smulenya, ntar aim follow😂","mantap.... aim boleh reques ga?? ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "boleh" in text.lower() or "silahkan" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("ah.. boong lu... njirr ","masak sih... ","yang beneeerrrr ","gak nyesal nie ","okelah kalau begitu ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "tikel" in text.lower() or "sticker" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("tukang palak beraksi ","semua tikel dia, dapat malak njirrr😂 ","tikel hasil malak gampang angus","situkang palak tikel beraksi ","aim gak biasa tikel murahan ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "berapa" in text.lower() or "harga" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("yang mahal dong","aim ga biasa yang murahan ","situ sih murah,, coba yang mahal ","banyak donk.. masak satu aja. ","murah itu..")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
     except Exception as error:
